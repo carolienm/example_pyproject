@@ -1,11 +1,9 @@
-https://github.com/carolienm/example_pyproject.git
 [project]
-name="babys_first_package"
-version="0.01.1a0"
-author = [
-{name= "Carolien Mossel",email="cmossel@gradcenter.cuny.edu"}]
-license= "MIT"
-license-files="license.txt"
+name = "babys_first_package"
+version = "0.01.1a0"
+authors = [
+{name = "Carolien Mossel",email = "cmossel@gradcenter.cuny.edu"}]
+license-files = ["license.txt"]
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = [
