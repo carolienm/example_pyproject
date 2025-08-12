@@ -6,4 +6,8 @@ author = [
 {name= "Carolien Mossel",email="cmossel@gradcenter.cuny.edu"}]
 license= "MIT"
 license-files="license.txt"
-build = setuptools
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools",
+]
