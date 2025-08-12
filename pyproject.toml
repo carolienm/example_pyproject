@@ -1,0 +1,5 @@
+https://github.com/carolienm/example_pyproject.git
+[project]
+name="babys_first_package"
+version="0.01.1a0"
+
